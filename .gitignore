@@ -1,23 +1,25 @@
 # Ambienti virtuali
-venv/
-codisum-env/
+/venv/
+/codisum-env/
+
+# File compilati e cache Python
 __pycache__/
 *.pyc
 
-# File temporanei e notebook checkpoint
+# File temporanei e notebook checkpoint (solo nella root)
 *.ipynb_checkpoints
-*.log
-*.csv
+/*.log
+/*.csv
 
 # File di sistema
 .DS_Store
 Thumbs.db
 
-# Cartelle di output dei modelli
-models/
-results/
-saved_model/
-saved_models/
+# Cartelle di output (solo nella root)
+./models/
+./results/
+./saved_model/
+./saved_models/
 
 # Cache colab
 *.bak
