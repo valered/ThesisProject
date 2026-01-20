@@ -1,0 +1,23 @@
+{
+  "seed": 999,
+  "host": "cfaa462b6ace",
+  "platform": "Linux-6.6.105+-x86_64-with-glibc2.35",
+  "python": "3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]",
+  "tf_version": "2.19.0",
+  "gpu_present": true,
+  "gpus": [
+    "PhysicalDevice(name='/physical_device:GPU:0', device_type='GPU')"
+  ],
+  "config": {
+    "ENC_UNITS": 192,
+    "DEC_UNITS": 97,
+    "EMB_DIM": 192,
+    "DROPOUT": 0.1,
+    "LR": 0.001,
+    "BATCH_SIZE": 100,
+    "EPOCHS": 20,
+    "MAX_SRC_LEN": 200,
+    "MAX_TGT_LEN": 32,
+    "VOCAB_SIZE": 30000
+  }
+}
